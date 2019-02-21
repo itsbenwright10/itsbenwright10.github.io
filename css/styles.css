@@ -1,22 +1,6 @@
-.background-image {
-  background-image: url("https://i.imgur.com/U0PjR71.jpg");
-  position: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.profile-box{
-
-}
-
-/*!
- * Start Bootstrap - Resume v5.0.4 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Muli','Helvetica Neue', Arial, sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -34,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Saira Extra Condensed','Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
@@ -61,7 +45,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Saira Extra Condensed','Helvetica Neue', Arial, sans-serif;
   font-size: 1.5rem;
 }
 
@@ -160,27 +144,27 @@ p.lead {
   }
 }
 
-section.resume-section {
+section.profile-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
 
-section.resume-section .resume-item .resume-date {
+section.profile-section{
   min-width: none;
 }
 
 @media (min-width: 768px) {
-  section.resume-section {
+  section.profile-section {
     min-height: 100vh;
   }
-  section.resume-section .resume-item .resume-date {
+  section.profile-section{
     min-width: 18rem;
   }
 }
 
 @media (min-width: 992px) {
-  section.resume-section {
+  section.profile-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
