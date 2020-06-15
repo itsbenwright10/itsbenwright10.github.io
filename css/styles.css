@@ -234,3 +234,6 @@ a:hover, a:focus, a:active {
 .container-padding{
   padding-left:50px;
 }
+.pr-40{
+  padding-right: 40px;
+}
