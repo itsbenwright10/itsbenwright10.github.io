@@ -234,6 +234,33 @@ a:hover, a:focus, a:active {
 
 /* End Project Button */
 
+/* Skills And Experience List Styles*/
+.skills-list-padding{
+  padding-left: 0px;
+}
+.skills-padding{
+  padding-top: 30px;
+}
+.font-size-larger{
+  font-size: 40px;
+}
+.list-centred{
+  height: 50px;
+  line-height: 40px;
+  display: flex;
+}
+.list-clear{
+  color: #FFFFFF;
+}
+.skills-padding-list{
+  padding-left: 30px;
+}
+.list-group-item.active{
+  background-color: #0b4e96;
+  border-color: #0b4e96;
+}
+/* End Skills And Experience List Styles*/
+
 .text {
   color: black;
   font-size: 20px;
