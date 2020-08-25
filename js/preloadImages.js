@@ -13,5 +13,5 @@ function preloadImages(){
 
 }
 
-preloadImages("https://i.imgur.com/sgSXRRJ.png", "https://i.imgur.com/izA4bqy.png", "https://i.imgur.com/V2slDHT.png");
+preloadImages("https://i.imgur.com/sgSXRRJ.png", "https://i.imgur.com/izA4bqy.png", "https://i.imgur.com/V2slDHT.png", "https://i.imgur.com/DRwT26j.png");
 // End Preload Images

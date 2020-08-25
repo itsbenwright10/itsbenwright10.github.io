@@ -48,6 +48,9 @@ p.lead {
   font-family: 'Saira Extra Condensed', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5rem;
 }
+.section-padding{
+  padding-top: 30px;
+}
 /* End Main Styles */
 
 /* Icons */
@@ -202,7 +205,6 @@ a:hover, a:focus, a:active {
 /* Hover image styles */
 .container {
   position: relative;
-  width: 50%;
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -247,9 +249,6 @@ a:hover, a:focus, a:active {
 /* Skills And Experience List Styles*/
 .skills-list-padding{
   padding-left: 0px;
-}
-.skills-padding{
-  padding-top: 30px;
 }
 .font-size-larger{
   font-size: 40px;
