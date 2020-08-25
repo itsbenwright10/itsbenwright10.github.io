@@ -1,8 +1,10 @@
 // Select all links with hashes
 $('a[href*="#"]')
-  // Remove links that don't actually link to anything
+  // Remove links that don't need scroll effect adding
   .not('[href="#"]')
   .not('[href="#0"]')
+  .not('[href="#list-skills"]')
+  .not('[href="#list-experience"]')
   .click(function(event) {
     // On-page links
     if (
