@@ -25,6 +25,7 @@
 
   <!-- Custom Stylesheet -->
   <link href="css/styles.css" rel="stylesheet">
+  <link href="scss/styles.scss" rel="stylesheet">
   <!-- End Custom Stylesheet -->
 
   <!-- Load In js Files -->
@@ -161,21 +162,106 @@
         <!-- Projects Section -->
         <div id="projects">
           <h2 class="pt-5"> Projects </h2>
-          <div class="row section-padding">
-            <div class="col-lg-4 container">
-              <img src="https://i.imgur.com/V2slDHT.png" alt="Pong Game" class="image drop-shadow">
-              <div class="overlay">
-                <a href="https://itsbenwright10.github.io/Pong-Game/" target="_blank"><button type="button" class="btn btn-light button-center">Pong Game</button></a>
-              </div>
+          <section>
+            <div class="container">
+                <div class="carousel">
+                    <input type="radio" name="slides" checked="checked" id="slide-1">
+                    <input type="radio" name="slides" id="slide-2">
+                    <input type="radio" name="slides" id="slide-3">
+                    <input type="radio" name="slides" id="slide-4">
+                    <input type="radio" name="slides" id="slide-5">
+                    <input type="radio" name="slides" id="slide-6">
+                    <ul class="carousel__slides">
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="https://i.imgur.com/V2slDHT.png" alt="Pong Game">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Tim Marshall</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="https://i.imgur.com/DRwT26j.png" alt="Logo Breakdown">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Christian Joudrey</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1044/800/450" alt="Supreme Redesign">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Steve Carter</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1045/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Aleksandra Boguslawska</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1049/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Rosan Harmens</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="https://picsum.photos/id/1052/800/450" alt="">
+                                </div>
+                                <figcaption>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    <span class="credit">Photo: Annie Spratt</span>                            
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>    
+                    <ul class="carousel__thumbnails">
+                        <li>
+                            <label for="slide-1"><img src="https://i.imgur.com/V2slDHT.png" alt="Pong Game"></label>
+                        </li>
+                        <li>
+                            <label for="slide-2"><img src="https://i.imgur.com/DRwT26j.png" alt="Logo Breakdown"></label>
+                        </li>
+                        <li>
+                            <label for="slide-3"><img src="https://i.imgur.com/ygEM3jq.png" alt="Supreme Redesign></label>
+                        </li>
+                        <li>
+                            <label for="slide-4"><img src="https://picsum.photos/id/1045/150/150" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-5"><img src="https://picsum.photos/id/1049/150/150" alt=""></label>
+                        </li>
+                        <li>
+                            <label for="slide-6"><img src="https://picsum.photos/id/1052/150/150" alt=""></label>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-lg-4 container">
-              <img src="https://i.imgur.com/DRwT26j.png" alt="Pong Game" class="image drop-shadow">
-              <div class="overlay">
-                <a href="https://www.behance.net/gallery/103034611/Logo-Design-With-Font-And-Color" target="_blank"><button type="button" class="btn btn-light button-center">Logo Breakdown</button></a>
-              </div>
-            </div>
-
-          </div>
+        </section>
         </div>
         <!-- End Projects Section -->
 
