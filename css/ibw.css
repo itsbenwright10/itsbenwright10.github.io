@@ -498,7 +498,7 @@ header .header-content h1 {
     color: #fff;
 }
 #contact ul {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 #contact li {
     padding-right: 5px;
@@ -641,8 +641,8 @@ h2 {
 #project-fabbox .bg, #project-lazenbys .bg, #project-techip .bg, #project-omnitech .bg {
     width: 100%}
     
-#project-fabbox .site, #project-omnitech .site, .project-lazenbys .site, .project-techip .site {
+#project-fabbox .site, #project-omnitech .site, #project-lazenbys .site, #project-techip .site {
     width: 74%;
     right: 16%;
-    top: 11%;
+    top: 20%;
 }
