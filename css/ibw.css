@@ -406,7 +406,30 @@ header .header-content h1 {
 #project-lazenbys a:hover {
     color: #235d88;
 }
-
+/* Oakhill */
+#project-Oakhill .bg {
+    background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    height: 480px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#project-Oakhill .site {
+    background: url(https://itsbenwright10.github.io/images/project-Oakhill.png) no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    height: 84%;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 12px;
+}
+#project-Oakhill a:hover {
+    color: #235d88;
+}
 /* TechIP */
 #project-techip .bg {
     background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
@@ -600,11 +623,15 @@ section {
     bottom: 0;
     left: 15px;
 }
-#project-fabbox .bg, #project-lazenbys .bg, #project-gluthea .bg, #project-omnitech .bg {
+#project-fabbox .bg, #project-lazenbys .bg, #project-Oakhill .bg #project-gluthea .bg, #project-omnitech .bg {
     right: 0;
 }
 
 #project-lazenbys .bg {
+    width: 90%;
+    height: 420px;
+}
+#project-Oakhill .bg {
     width: 90%;
     height: 420px;
 }
@@ -639,10 +666,10 @@ h2 {
     margin-bottom: 20px!important;
 }
 
-#project-fabbox .bg, #project-lazenbys .bg, #project-techip .bg, #project-omnitech .bg {
+#project-fabbox .bg, #project-lazenbys .bg, #project-Oakhill .bg, #project-techip .bg, #project-omnitech .bg {
     width: 100%}
     
-#project-fabbox .site, #project-omnitech .site, #project-lazenbys .site, #project-techip .site {
+#project-fabbox .site, #project-omnitech .site, #project-lazenbys .site, #project-Oakhill .site, #project-techip .site {
     width: 74%;
     right: 16%;
     top: 20%;
