@@ -318,7 +318,7 @@ header .header-content h1 {
     letter-spacing: 1px;
 }
 /* cards */
-#project-fabbox .bg, #project-lazenbys .bg, #project-techip .bg, #project-omnitech .bg {
+#project-fabbox .bg, #project-lazenbys .bg, #project-vantage .bg, #project-Oakhill .bg, #project-provend .bg, #project-techip .bg, #project-omnitech .bg {
     -webkit-transition: all .15s ease;
     -moz-transition: all .15s ease;
     -ms-transition: all .15s ease;
@@ -381,6 +381,30 @@ header .header-content h1 {
 #project-omnitech {
     background-color: #fafcff;
 }
+/* provend */
+#project-provend .bg {
+    background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    height: 480px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#project-provend .site {
+    background: url(https://itsbenwright10.github.io/images/project-provend.png) no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    height: 84%;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 12px;
+}
+#project-provend a:hover {
+    color: #235d88;
+}
 
 /* Lazenbys */
 #project-lazenbys .bg {
@@ -404,6 +428,30 @@ header .header-content h1 {
     right: 12px;
 }
 #project-lazenbys a:hover {
+    color: #235d88;
+}
+/* Vantage UAV */
+#project-vantage .bg {
+    background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+    background-position: top left;
+    background-size: 100%;
+    height: 480px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#project-vantage .site {
+    background: url(https://itsbenwright10.github.io/images/project-vantage.png) no-repeat;
+    background-position: bottom left;
+    background-size: 100%;
+    height: 84%;
+    width: 45%;
+    position: absolute;
+    top: 0;
+    right: 12px;
+}
+#project-vantage a:hover {
     color: #235d88;
 }
 /* Oakhill */
@@ -623,7 +671,7 @@ section {
     bottom: 0;
     left: 15px;
 }
-#project-fabbox .bg, #project-lazenbys .bg, #project-Oakhill .bg #project-gluthea .bg, #project-omnitech .bg {
+#project-fabbox .bg, #project-lazenbys .bg, #project-vantage .bg, #project-Oakhill  .bg, #project-provend .bg, #project-gluthea .bg, #project-omnitech .bg {
     right: 0;
 }
 
@@ -631,7 +679,15 @@ section {
     width: 90%;
     height: 420px;
 }
+#project-vantage .bg {
+    width: 90%;
+    height: 420px;
+}
 #project-Oakhill .bg {
+    width: 90%;
+    height: 420px;
+}
+#project-provend .bg {
     width: 90%;
     height: 420px;
 }
@@ -666,10 +722,10 @@ h2 {
     margin-bottom: 20px!important;
 }
 
-#project-fabbox .bg, #project-lazenbys .bg, #project-Oakhill .bg, #project-techip .bg, #project-omnitech .bg {
+#project-fabbox .bg, #project-lazenbys .bg, #project-vantage .bg, #project-provend .bg, #project-Oakhill .bg, #project-techip .bg, #project-omnitech .bg {
     width: 100%}
     
-#project-fabbox .site, #project-omnitech .site, #project-lazenbys .site, #project-Oakhill .site, #project-techip .site {
+#project-fabbox .site, #project-omnitech .site, #project-provend .site, #project-lazenbys .site, #project-vantage .site, #project-Oakhill .site, #project-techip .site {
     width: 74%;
     right: 16%;
     top: 20%;
