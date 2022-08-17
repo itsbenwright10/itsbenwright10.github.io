@@ -1,0 +1,1027 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik';
+	color: #fff;
+	background: #111010 !important;
+}
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Rubik';
+	color: #fff;
+	background: #111010 !important;
+}
+a {
+	color: #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+	text-decoration: underline;
+	&:focus {
+		color: #888;
+		outline: 0 !important;
+	}
+	&:hover {
+		color: #888;
+		outline: 0 !important;
+	}
+}
+h1 {
+	font-family: 'Rubik';
+	text-transform: none !important;
+	color: #fff;
+}
+h2 {
+	font-family: 'Rubik';
+	text-transform: none !important;
+	color: #fff;
+	font-size: 33px;
+	line-height: 1.5;
+}
+h3 {
+	font-family: 'Rubik';
+	text-transform: none !important;
+	color: #fff;
+}
+h4 {
+	font-family: 'Rubik';
+	text-transform: none !important;
+	color: #fff;
+}
+h5 {
+	font-family: 'Rubik';
+	text-transform: none !important;
+	color: #fff;
+}
+h6 {
+	font-family: 'Rubik';
+	text-transform: none !important;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #616161;
+	margin-bottom: 40px;
+}
+p {
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 1.5;
+}
+aside {
+	padding: 60px 0;
+}
+section {
+	padding: 60px 0;
+}
+&::-moz-selection {
+	text-shadow: none;
+	color: #fff;
+	background: #222;
+}
+&::selection {
+	text-shadow: none;
+	color: #fff;
+	background: #222;
+}
+img {
+	&::selection {
+		color: #fff;
+		background: 0 0;
+	}
+	&::-moz-selection {
+		color: #fff;
+		background: 0 0;
+	}
+	margin-bottom: 20px;
+}
+.navbar-brand {
+	height: 100px !important;
+	>img {
+		width: 200px;
+	}
+}
+.navbar-default {
+	border: none;
+	font-family: 'Rubik';
+	background-color: #111010;
+	-webkit-transition: all ease .35s;
+	-moz-transition: all ease .35s;
+	transition: all ease .35s;
+	.navbar-header {
+		.navbar-brand {
+			background: url(https://itsbenwright10.github.io/images/white-logo.png) no-repeat;
+			background-size: 100%;
+			width: 105px;
+			margin-top: -30px;
+			-webkit-transition: all ease .35s;
+			-moz-transition: all ease .35s;
+			transition: all ease .35s;
+			&:focus {
+				color: #fff;
+				opacity: .1;
+			}
+			&:hover {
+				color: #fff;
+				opacity: .1;
+			}
+		}
+	}
+	.nav {
+		>li {
+			>a {
+				text-transform: uppercase;
+				font-size: 14px;
+				letter-spacing: 1px;
+				color: #fff;
+				&:focus {
+					text-transform: uppercase;
+					font-size: 14px;
+					letter-spacing: 1px;
+					color: #fff;
+					&:hover {
+						text-decoration: line-through;
+						background-color: transparent;
+					}
+				}
+				&:hover {
+					text-decoration: line-through;
+					background-color: transparent;
+				}
+			}
+		}
+		>li.active {
+			>a {
+				text-decoration: line-through;
+				background-color: transparent;
+				&:focus {
+					text-decoration: line-through;
+					background-color: transparent;
+					&:hover {
+						text-decoration: line-through;
+						background-color: transparent;
+					}
+				}
+				&:hover {
+					text-decoration: line-through;
+					background-color: transparent;
+				}
+			}
+		}
+	}
+	.navbar-toggle {
+		&:focus {
+			background-color: none;
+			background: 0 0;
+		}
+		&:hover {
+			background-color: none;
+			background: 0 0;
+		}
+		.icon-bar {
+			background-color: #fff;
+		}
+	}
+	.navbar-collapse {
+		border-color: none;
+		border: none;
+	}
+	.navbar-form {
+		border-color: none;
+		border: none;
+	}
+}
+.navbar-toggle {
+	position: relative;
+	float: right;
+	padding: 10px;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 0;
+	border: none;
+}
+header {
+	position: relative;
+	width: 100%;
+	min-height: 520px;
+	text-align: left;
+	.header-content {
+		padding-top: 220px;
+		h1 {
+			font-size: 33px;
+			line-height: 1.5;
+			color: #fff;
+		}
+	}
+}
+.card {
+	position: relative;
+	background: #fff;
+	-webkit-box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 1);
+	box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 1);
+	-webkit-transition: all .15s;
+	-moz-transition: all .15s;
+	-ms-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+	margin-bottom: 40px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	height: 480px;
+	color: #201f1f;
+	padding: 40px;
+	overflow: hidden;
+	&:hover {
+		-ms-transform: translateY(-6px);
+		-webkit-transform: translateY(-6px);
+		transform: translateY(-6px);
+	}
+	h6 {
+		margin-bottom: 10px;
+	}
+	h2 {
+		font-weight: 700;
+		font-size: 34px;
+		color: #201f1f;
+		margin-bottom: 80px;
+	}
+	p {
+		font-size: 24px;
+		line-height: 1.5;
+	}
+	a {
+		font-weight: 700;
+		color: #201f1f;
+	}
+	.btn {
+		position: absolute;
+		bottom: 80px;
+		left: 40px;
+		padding: 0;
+		font-size: 14px;
+		letter-spacing: 1px;
+	}
+}
+#project-fabbox {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/fabbox-mockup.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #240a4e;
+		}
+	}
+	background-color: #fafcff;
+}
+#project-lazenbys {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/project-lazenbys.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #235d88;
+		}
+	}
+}
+#project-vantage {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/project-vantage.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #235d88;
+		}
+	}
+}
+#project-Oakhill {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/project-Oakhill.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #235d88;
+		}
+	}
+}
+#project-provend {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/project-provend.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #235d88;
+		}
+	}
+}
+#project-techip {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/project-techip.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #7775bf;
+		}
+	}
+}
+#project-omnitech {
+	.bg {
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		background: url(https://itsbenwright10.github.io/images/project-fabbox-bg.png) no-repeat;
+		background-position: top left;
+		background-size: 100%;
+		height: 480px;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	.site {
+		background: url(https://itsbenwright10.github.io/images/project-omitech.png) no-repeat;
+		background-position: bottom left;
+		background-size: 100%;
+		height: 84%;
+		width: 45%;
+		position: absolute;
+		top: 0;
+		right: 12px;
+	}
+	a {
+		&:hover {
+			color: #9a2771;
+		}
+	}
+	background-color: #fafcff;
+}
+.cta {
+	width: 100%;
+	background: #1d1d1d;
+	padding: 48px 40px;
+	text-align: left;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border: none;
+	-webkit-box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 1);
+	-moz-box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 1);
+	box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 1);
+	-webkit-transition: all .15s;
+	-moz-transition: all .15s;
+	-ms-transition: all .15s;
+	-o-transition: all .15s;
+	transition: all .15s;
+	&:hover {
+		background: #2f2f2f;
+		.fas {
+			-ms-transform: translateX(10px);
+			-webkit-transform: translateX(10px);
+			transform: translateX(10px);
+		}
+	}
+	&:active {
+		outline: 0;
+	}
+	&:focus {
+		outline: 0;
+	}
+	.fas {
+		position: absolute;
+		right: 55px;
+		font-size: 24px;
+		top: 40%;
+		-webkit-transition: all .15s;
+		-moz-transition: all .15s;
+		-ms-transition: all .15s;
+		-o-transition: all .15s;
+		transition: all .15s;
+	}
+}
+.caption {
+	margin-bottom: 50px;
+	p {
+		font-size: 10px;
+		color: #626262;
+	}
+	a {
+		color: #626262;
+		text-decoration: none;
+	}
+}
+#contact {
+	padding: 140px 0 0;
+	h2 {
+		a {
+			color: #fff;
+			font-weight: 700;
+			&:hover {
+				color: #888;
+			}
+		}
+	}
+	ul {
+		margin-top: 70px;
+	}
+	li {
+		padding-right: 5px;
+		padding-left: 5px;
+		width: 48px;
+		height: 48px;
+		text-align: center;
+		line-height: 54px;
+		margin: 0 10px;
+		top: 0;
+		position: relative;
+		-webkit-transition: all .15s ease;
+		-moz-transition: all .15s ease;
+		-ms-transition: all .15s ease;
+		-o-transition: all .15s ease;
+		transition: all .15s ease;
+		&:hover {
+			top: -3px;
+			position: relative;
+			-webkit-transition: all .15s ease;
+			-moz-transition: all .15s ease;
+			-ms-transition: all .15s ease;
+			-o-transition: all .15s ease;
+			transition: all .15s ease;
+			-ms-transform: scale(1.2);
+			-webkit-transform: scale(1.2);
+			transform: scale(1.2);
+		}
+	}
+}
+.fab {
+	font-size: 24px;
+	color: #fff;
+}
+.far {
+	font-size: 24px;
+	color: #fff;
+}
+.socials {
+	text-align: right;
+}
+footer {
+	color: #201f1f;
+	padding-top: 80px;
+	a {
+		color: #201f1f;
+		text-decoration: underline;
+		&:hover {
+			color: #111010;
+		}
+	}
+	h2 {
+		color: #201f1f;
+	}
+}
+.copyright {
+	color: #626262;
+	font-size: 10px;
+	margin: 180px 0 40px;
+}
+@media (min-width:1200px) {
+	.container {
+		width: 970px !important;
+	}
+}
+@media min-width:992px) {
+	.navbar-default {
+		border: none;
+		padding-top: 20px;
+		.navbar-header {
+			.navbar-brand {
+				&:focus {
+					color: #fff;
+				}
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+		.nav {
+			>li {
+				>a {
+					color: #fff;
+					padding: 25px 15px;
+					-webkit-transition: all .15s ease;
+					-moz-transition: all .15s ease;
+					-ms-transition: all .15s ease;
+					-o-transition: all .15s ease;
+					transition: all .15s ease;
+					text-decoration: none;
+					&:focus {
+						color: #fff;
+						padding: 25px 15px;
+						-webkit-transition: all .15s ease;
+						-moz-transition: all .15s ease;
+						-ms-transition: all .15s ease;
+						-o-transition: all .15s ease;
+						transition: all .15s ease;
+						text-decoration: none;
+						&:hover {
+							color: #fff;
+						}
+					}
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.navbar-default.affix {
+		border: none;
+		background-color: rgba(17, 16, 17, 1);
+		padding-top: 0;
+		-webkit-box-shadow: 0 2px 40px 0 rgba(17, 16, 17, .8);
+		-moz-box-shadow: 0 2px 40px 0 rgba(17, 16, 17, .8);
+		box-shadow: 0 2px 40px 0 rgba(17, 16, 17, .8);
+		.navbar-header {
+			.navbar-brand {
+				background: url(https://itsbenwright10.github.io/images/white-logo.png) no-repeat;
+				background-size: 100%;
+				opacity: 1;
+				&:focus {
+					color: #fff;
+				}
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+		.nav {
+			>li {
+				>a {
+					&:focus {
+						&:hover {
+							color: #fff;
+						}
+					}
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.add-padding {
+		padding: 0;
+	}
+}
+@media (max-width:991px) {
+	.navbar-brand {
+		padding: 10px 15px;
+		>img {
+			width: 145px;
+		}
+	}
+	.navbar-default {
+		.navbar-header {
+			.navbar-brand {
+				background: url(https://itsbenwright10.github.io/images/white-logo.png) no-repeat;
+				background-size: 100%;
+				width: 105px;
+				margin-top: -30px;
+				margin-bottom: 0;
+			}
+		}
+		-webkit-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .1);
+		-moz-box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .1);
+		box-shadow: 0 2px 40px 0 rgba(0, 0, 0, .1);
+		.nav {
+			>li {
+				>a {
+					border-bottom: none;
+					margin-bottom: 0;
+					text-decoration: none;
+					&:focus {
+						border-bottom: none;
+						margin-bottom: 0;
+						text-decoration: none;
+						&:hover {
+							color: #fff !important;
+							border-bottom: none;
+						}
+					}
+					&:hover {
+						color: #fff !important;
+						border-bottom: none;
+					}
+				}
+			}
+			>li.active {
+				>a {
+					color: #fff !important;
+					background: 0 0;
+					border-bottom: none;
+					&:focus {
+						color: #fff !important;
+						background: 0 0;
+						border-bottom: none;
+						&:hover {
+							color: #fff !important;
+							background: 0 0;
+							border-bottom: none;
+						}
+					}
+					&:hover {
+						color: #fff !important;
+						background: 0 0;
+						border-bottom: none;
+					}
+				}
+			}
+		}
+	}
+	.navbar-default.affix {
+		.navbar-header {
+			.navbar-brand {
+				opacity: 1;
+			}
+		}
+	}
+	.navbar-header {
+		float: none;
+	}
+	.navbar-left {
+		float: none !important;
+	}
+	.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: none;
+		box-shadow: none;
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none !important;
+	}
+	.navbar-nav {
+		float: none !important;
+		margin-top: 7.5px;
+		>li {
+			float: none;
+			>a {
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+		}
+	}
+	.collapse.in {
+		display: block !important;
+	}
+	header {
+		.header-content {
+			padding: 150px 15px 120px;
+		}
+	}
+	h2 {
+		line-height: 1.2;
+		margin-bottom: 40px !important;
+	}
+}
+@media (min-width:768px) {
+	.navbar {
+		>.container {
+			.navbar-brand {
+				margin-left: 0;
+			}
+		}
+		>.container-fluid {
+			.navbar-brand {
+				margin-left: 0;
+			}
+		}
+	}
+}
+@media (max-width:767px) {
+	header {
+		min-height: 400px;
+		.header-content {
+			padding: 120px 15px;
+			h1 {
+				font-size: 22px;
+				margin-bottom: 20px !important;
+				margin-top: 60px;
+			}
+		}
+	}
+	#about {
+		.header-content {
+			h1 {
+				margin-top: 20px;
+				margin-bottom: 80px !important;
+			}
+		}
+	}
+	section {
+		padding: 30px 0;
+	}
+	.card {
+		padding: 20px;
+		height: 420px;
+		margin-bottom: 15px;
+		position: relative;
+		h2 {
+			margin: 10px 0;
+			font-size: 24px;
+			line-height: 1.2;
+		}
+		h6 {
+			font-size: 12px;
+		}
+		p {
+			font-size: 16px;
+		}
+		.btn {
+			position: relative;
+			bottom: 0;
+			left: 15px;
+		}
+	}
+	#project-fabbox {
+		.bg {
+			right: 0;
+		}
+	}
+	#project-lazenbys {
+		.bg {
+			right: 0;
+			width: 90%;
+			height: 420px;
+		}
+	}
+	#project-vantage {
+		.bg {
+			right: 0;
+			width: 90%;
+			height: 420px;
+		}
+	}
+	#project-Oakhill {
+		.bg {
+			right: 0;
+			width: 90%;
+			height: 420px;
+		}
+	}
+	#project-provend {
+		.bg {
+			right: 0;
+			width: 90%;
+			height: 420px;
+		}
+	}
+	#project-gluthea {
+		.bg {
+			right: 0;
+		}
+	}
+	#project-omnitech {
+		.bg {
+			right: 0;
+			height: 420px;
+			width: 100%;
+			top: 0;
+		}
+	}
+	.socials {
+		text-align: left;
+	}
+	#contact {
+		padding: 40px 0 0;
+		li {
+			width: 32px;
+			height: 32px;
+		}
+	}
+	h2 {
+		font-size: 22px;
+		line-height: 1.5;
+		margin-top: 0;
+	}
+	.copyright {
+		margin: 60px 0 40px;
+	}
+}
+@media (max-width:480px) {
+	h2 {
+		margin-bottom: 20px !important;
+	}
+	#project-fabbox {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+	#project-lazenbys {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+	#project-vantage {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+	#project-provend {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+	#project-Oakhill {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+	#project-techip {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+	#project-omnitech {
+		.bg {
+			width: 100%;
+		}
+		.site {
+			width: 74%;
+			right: 16%;
+			top: 20%;
+		}
+	}
+}
